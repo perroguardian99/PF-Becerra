@@ -1,0 +1,16 @@
+.trabajos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    .trabajito {
+        height: 300px;
+        border-radius: 12px;
+        margin: 24px;
+    }
+}

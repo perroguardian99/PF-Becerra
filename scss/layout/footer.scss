@@ -1,0 +1,45 @@
+.pie-pagina {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+
+    .grupo-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .red-social a {
+            display: inline-block;
+            text-decoration: none;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            color: aliceblue;
+            transition: all 300ms ease;
+            text-align: center;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .grupo-2 {
+        padding: 15px 10px;
+        color: aliceblue;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 800px) {
+        .grupo-1 {
+            width: 90%;
+        }
+    }
+}
